@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	min-width:300px;
+	min-height:400px;
+	margin:0px;
+	height:100%;
+	width:100%;
+}
+header {
+	width: 100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color: #00B7FF;
+	font-family: 'Poiret One';
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#heading {
+	width:300px;
+	position:relative;
+	left:20px;
+}
+#main {
+	width:80%;
+	height:auto;
+	position:relative;
+	left:10%;
+	top: 200px;
+	text-align:center;
+}
+
+#main_part {
+	background-color:#00B7FF;
+	border-radius: 10px;
+	padding:10px;
+}
+.field {
+	border-radius: 10px;
+	height:25px;
+	font-size:16px;
+	border:none;
+	
+}
+#result {
+	font-size:20px;
+	margin-top:20px
+}
+footer {
+	width:100%;
+	background-color: #00B7FF;
+	position:absolute;
+	text-align:center;
+	bottom: 0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+}
+#footer_href {
+	text-decoration:none;
+}
+a:link {
+	color:#000000;
+}
+a:visited {
+	color:#000000;
+}
