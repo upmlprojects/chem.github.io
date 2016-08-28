@@ -95,10 +95,7 @@ button {
 }
 
 @media screen and (orientation: portrait) {
-    body {
-        display: flex;
-        justify-content: center;
-    }
+
     span {
         display: none;
     }
