@@ -2,34 +2,30 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<<<<<<< HEAD
 <title>E-balance</title>
 <link rel="stylesheet" href="css/main.css" type="text/css">
-=======
-<title>E-Balance</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-<script src="equation_script.js"></script>
->>>>>>> parent of 639a3cc... To working state
 <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 <script src="js/equation_script.js"></script>
 </head>
 
 <body>
-	<header class="navsides">
-    	<p class="header" id="logo">E-Balance</p>
+    <header class="bars">
+        <h1>E-Balance</h1>
     </header>
-    <div id="equations">
-        <div id="main_part">
-            <input class="input_form" id="input_el">
-            <p class="input_p">=</p>
-            <input class="input_form" id="output_el">
+    <div class="main_content">
+        <div id="input_forms">
+            <input id="input_el">
+            <p id="equal">=</p>
+            <input id="output_el">
+            <button onclick="balancer ();">Equate</button>
         </div>
-        <button onClick="balancer ();">Equate</button>
     </div>
-    <p style="font-size:25px" id="text_result">Result:</p>
-    <p id="result"></p>
-    <footer class="navsides">
-        <p class="footer">2016 &copy; E-Balance<span > Made for UPML by <a href="https://vk.com/aviation7">Misha Dziuba</a></span></p>
+    <div class="result_div">
+        <p id="result_txt">Result:</p>
+        <p id="result">H2O</p>
+    </div>
+    <footer class="bars">
+        <p>2016 &copy; E-Balance <span>Made for UPML by Misha Dziuba</span></p>
     </footer>
 </body>
 </html>
