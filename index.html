@@ -2,30 +2,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>E-Balance</title>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<script src="js/equation_script.js"></script>
+<title>E-balance</title>
+<link rel="stylesheet" href="css/main.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<script src="js/equation_script.js"></script>
 </head>
 
 <body>
-<header>
-	<h1 id="heading">E-Balance Method</h1>
-</header>
-<div id="main">
-    <div id="main_part">
-      <p>
-        <input type="text" class="field" id="input_el">
-        =  
-        <input type="text" class="field" id="output_el">
-      </p>
-      <button id="equalize_button" onClick="balancer ();">Equalize (without e-balance)</button>
-  </div>
-  <p style="font-size:25px">Result:</p>
-  <p id="result"></p>
-</div>
-<footer>
-	<p>2016 &copy; E-Balance. Made for UPML by <a href="https://vk.com/aviation7" id="footer_href">Misha Dziuba</a></p>
-</footer>
+	<header class="navsides">
+    	<p class="header" id="logo">E-Balance</p>
+    </header>
+    <div id="equations">
+        <div id="main_part">
+            <input class="input_form" id="input_el">
+            <p class="input_p">=</p>
+            <input class="input_form" id="output_el">
+        </div>
+        <button onClick="balancer ();">Equate</button>
+    </div>
+    <p style="font-size:25px" id="text_result">Result:</p>
+    <p id="result"></p>
+    <footer class="navsides">
+        <p class="footer">2016 &copy; E-Balance<span > Made for UPML by <a href="https://vk.com/aviation7">Misha Dziuba</a></span></p>
+    </footer>
 </body>
 </html>
