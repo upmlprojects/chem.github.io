@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    font-family: 'Poiret One';
+    font-family: 'Indie Flower', cursive;
     margin: 0px;
 }
 
@@ -94,7 +94,7 @@ button {
     text-align: center;
 }
 
-@media screen and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
 
     span {
         display: none;
